@@ -17,7 +17,15 @@
         "command": "annaPrototype.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "menus": {
+      "view/item/context": [
+        {
+          "command": "annaPrototype.helloWorld"
+          
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
