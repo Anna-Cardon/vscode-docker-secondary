@@ -21,8 +21,9 @@
     "menus": {
       "view/item/context": [
         {
-          "command": "annaPrototype.helloWorld"
-          
+          "command": "annaPrototype.helloWorld",
+          "when": "view == dockerRegistries && viewItem == azure;DockerV2;Tag;",
+          "group": "regs_tag_1_general@7"
         }
       ]
     }
