@@ -16,7 +16,15 @@
       {
         "command": "annaPrototype.helloWorld",
         "title": "Hello World"
-      }
+      },
+			{
+				"command": "terminalTest.createTerminal",
+				"title": "Terminal API: Create Terminal.anna"
+			},
+			{
+				"command": "terminalTest.show",
+				"title": "Terminal API: Show.anna"
+			}
     ],
     "menus": {
       "view/item/context": [
