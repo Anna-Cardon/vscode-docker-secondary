@@ -1,5 +1,6 @@
 {
   "name": "annaPrototype",
+  "publisher": "annaIntern",
   "displayName": "Prototype",
   "description": "secondary extension for seeing image referrers",
   "version": "0.0.1",
