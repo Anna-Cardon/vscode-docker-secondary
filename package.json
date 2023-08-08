@@ -1,5 +1,6 @@
 {
   "name": "annaPrototype",
+  "publisher": "annaIntern",
   "displayName": "Prototype",
   "description": "secondary extension for seeing image referrers",
   "version": "0.0.1",
@@ -16,8 +17,25 @@
       {
         "command": "annaPrototype.helloWorld",
         "title": "Hello World"
-      }
-    ]
+      },
+			{
+				"command": "terminalTest.createTerminal",
+				"title": "Terminal API: Create Terminal.anna"
+			},
+			{
+				"command": "terminalTest.show",
+				"title": "Terminal API: Show.anna"
+			}
+    ],
+    "menus": {
+      "view/item/context": [
+        {
+          "command": "annaPrototype.helloWorld",
+          "when": "view == dockerRegistries && viewItem == azure;DockerV2;Tag;",
+          "group": "regs_tag_1_general@7"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
